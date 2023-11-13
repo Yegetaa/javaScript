@@ -49,9 +49,14 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
-//   Check if all numbers are divisible by 5
+// Check if all numbers are divisible by 5
 // if the sum of the reminders when all the numbers are
 // divided by 5 is zero, all numbers are divisible by 5
 
 const divisibleBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) === 0;
 console.log(divisibleBy5);
+
+// Check if the first number is larger than the last
+// if n1 > n4, then n1-n4 should be larger than zero
+const n1greaterthann4 = (n1 - n4) > 0  
+console.log(n1greaterthann4);
