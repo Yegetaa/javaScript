@@ -60,3 +60,9 @@ console.log(divisibleBy5);
 // if n1 > n4, then n1-n4 should be larger than zero
 const n1greaterthann4 = (n1 - n4) > 0  
 console.log(n1greaterthann4);
+
+// Subtract the first number from the second number, Multiply the result by the third number, 
+// Find the remainder of dividing the result by the fourth number.
+
+const arithmeticChain = ((n2-n1)*n3) % n4;
+console.log(arithmeticChain);
