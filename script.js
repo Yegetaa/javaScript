@@ -38,7 +38,9 @@ const isValid = isSum50 && isTwoOdd && isUnder25 && isUnique;
 
 
 // Finally, log the results.
-console.log(`All four numbers add up to 50 and at least two are odds and all are under 25 and all are unique numbers: ${isValid}.`);
+console.log(`All four numbers add up to 50 and\
+ at least two are odds and all are under 25 and\
+ all are unique numbers: ${isValid}.`);
 
 // Here's another example of how this COULD be done,
 // but it SHOULD NOT be done this way. As programmers,
@@ -65,4 +67,6 @@ console.log(`The first number is larger than the last: ${n1greaterthann4}.`);
 // Find the remainder of dividing the result by the fourth number.
 
 const arithmeticChain = ((n2-n1)*n3) % n4;
-console.log(`The difference between the first and second number multiplied by the third number and then divided by the fourth number yields this number: ${arithmeticChain}.`);
+console.log(`The difference between the first and second number\
+ multiplied by the third number\
+ and then divided by the fourth number yields: ${arithmeticChain}.`);
