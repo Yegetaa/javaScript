@@ -72,20 +72,50 @@ console.log(`The difference between the first and second number\
  and then divided by the fourth number yields: ${arithmeticChain}.`);
 
  //How many gallons of fuel will you need for the entire trip of 1500 miles?
+ //Will your budget of $175 be enough to cover the fuel expense at $3/gallons?
  const totalTrip = 1500
+ const budget = 175
+ const pricePerGallon= 3
 
 // if you're traveling 55 miles per hour and therefore getting 30 miles per gallon?
 const gallons = totalTrip/30 
 console.log(`If you're traveling 55 miles per hour and therefore getting 30 miles per gallon,\
  you would need ${gallons} gallons of fuel to cover ${totalTrip} miles.`);
+//Will your budget of $175 be enough to cover the fuel expense at $3/gallons?
+const expense = (gallons * pricePerGallon)
+const expenseLessBudget = (expense < budget)
+console.log(`If you're traveling 55 miles per hour, then you would need ${gallons} gallons of fuel which\
+ will cost you $${expense}. This total is less than the budget:${expenseLessBudget}`)
+ //How long will the trip take, in hours?
+ const milePerHour = 55
+ const totalHours = totalTrip / milePerHour
+ console.log(`If you're traveling 55 miles per hour, it would take ${totalHours} hours to cover ${totalTrip} miles.`)
 
 // if you're traveling 60 miles per hour and therefore getting 28 miles per gallon?
 const gallons2 = totalTrip/28
 console.log(`If you're traveling 60 miles per hour and therefore getting 28 miles per gallon,\
 you would need ${gallons2} gallons of fuel to cover ${totalTrip} miles.`);
+//Will your budget of $175 be enough to cover the fuel expense at $3/gallons?
+const expense2 = (gallons2 * pricePerGallon)
+const expenseLessBudget2 = (expense2 < budget)
+console.log(`If you're traveling 60 miles per hour, then you would need ${gallons2} gallons of fuel which\
+ will cost you $${expense2}. This total is less than the budget:${expenseLessBudget2}`)
+ //How long will the trip take, in hours?
+ const milePerHour2 = 60
+ const totalHours2 = totalTrip / milePerHour2
+ console.log(`If you're traveling 60 miles per hour, it would take ${totalHours2} hours to cover ${totalTrip} miles.`)
+
 
 // if you're traveling 75 miles per hour and therefore getting 23 miles per gallon?
 const gallons3 = totalTrip/23
 console.log(`If you're traveling 75 miles per hour and therefore getting 23 miles per gallon,\
 you would need ${gallons3} gallons of fuel to cover ${totalTrip} miles.`);
- 
+ //Will your budget of $175 be enough to cover the fuel expense at $3/gallons?
+const expense3 = (gallons3 * pricePerGallon)
+const expenseLessBudget3 = (expense3 < budget)
+console.log(`If you're traveling 75 miles per hour, then you would need ${gallons3} gallons of fuel which\
+ will cost you $${expense3}. This total is less than the budget:${expenseLessBudget3}`)
+  //How long will the trip take, in hours?
+  const milePerHour3 = 75
+  const totalHours3 = totalTrip / milePerHour3
+  console.log(`If you're traveling 75 miles per hour, it would take ${totalHours3} hours to cover ${totalTrip} miles.`)
