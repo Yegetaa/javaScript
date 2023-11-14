@@ -70,3 +70,22 @@ const arithmeticChain = ((n2-n1)*n3) % n4;
 console.log(`The difference between the first and second number\
  multiplied by the third number\
  and then divided by the fourth number yields: ${arithmeticChain}.`);
+
+ //How many gallons of fuel will you need for the entire trip of 1500 miles?
+ const totalTrip = 1500
+
+// if you're traveling 55 miles per hour and therefore getting 30 miles per gallon?
+const gallons = totalTrip/30 
+console.log(`If you're traveling 55 miles per hour and therefore getting 30 miles per gallon,\
+ you would need ${gallons} gallons of fuel to cover ${totalTrip} miles.`);
+
+// if you're traveling 60 miles per hour and therefore getting 28 miles per gallon?
+const gallons2 = totalTrip/28
+console.log(`If you're traveling 60 miles per hour and therefore getting 28 miles per gallon,\
+you would need ${gallons2} gallons of fuel to cover ${totalTrip} miles.`);
+
+// if you're traveling 75 miles per hour and therefore getting 23 miles per gallon?
+const gallons3 = totalTrip/23
+console.log(`If you're traveling 75 miles per hour and therefore getting 23 miles per gallon,\
+you would need ${gallons3} gallons of fuel to cover ${totalTrip} miles.`);
+ 
